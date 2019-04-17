@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+h1{
+    font: bold 20px verdana, sans-serif;
+/* font-style font-variant font-weight font-size/lineeight, font-style*/
+}
+ 
+h2{
+    font: bold 14px verdana, sans-serif;
+}
+
+/*Los div ya son display: block */
+#cabecera{
+    padding: 20px;
+    background: #FFFBB9;
+    border: 1px solid #999999;
+}
+
+#menu{
+    padding: 5px 15px;
+    background: #cccccc;
+}
+
+#menu li{
+    padding: 5px;
+    list-style: none;
+    display: inline-block;
+    font: bold 14px verdana, sans-serif;
+}
+
+#agrupar{
+    width: 960px;
+    text-align:left;   
+    margin: 15px auto;
+}
+
+#seccion{
+    float: left;
+    width: 660px;
+    margin: 20px;
+}
+
+article{
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #999999;
+    background-color: #fffbcc;
+}
+
+article footer{
+    text-align: right;
+}
+
+time{
+    color: #999999;
+}
+
+figcaption{
+    font: italic 14px verdana, sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+#columna{
+    float: left;
+    height: 100%;
+    width: 220px;
+    padding: 20px;
+    margin: 20px 0;
+    background: #cccccc;
+}
+
+#pie{
+    clear: both;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #999999;
+}
